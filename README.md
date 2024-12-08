@@ -35,10 +35,9 @@ Este proyecto está construido con las siguientes tecnologías:
 Sigue estos pasos para instalar y ejecutar la aplicación localmente:
 
 ### **1. Clonar este repositorio**
-Ejecuta el siguiente comando en tu terminal para clonar el proyecto:
+Ejecuta el siguiente comando en tu terminal para clonar el proyecto: git clone https://github.com/alejandro/generador-cv.git
 
-```bash
-git clone https://github.com/alejandro/generador-cv.git
+---
 
 ### **2. Configurar el backend**
 Navega al directorio del backend: cd generador-cv/backend
@@ -48,10 +47,14 @@ PORT=5000
 DATABASE_URL=./data/database.sqlite
 Inicia el servidor: npm start
 
+---
+
 ### **3. Configurar el frontend**
 Navega al directorio del frontend: cd ../frontend
 Instala las dependencias: npm install
 Inicia la aplicación: npm start
+
+---
 
 ### **4. Accede a la aplicación**
 Abre tu navegador y ve a: http://localhost:3003
